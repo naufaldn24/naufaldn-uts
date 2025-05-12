@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contoh onError - Naufal DN</title>
+  </head>
+  <body>
+    <img
+      src="gambar_tidak_ada.jpg"
+      onerror="this.onerror=null; this.src='gambar_pengganti.png';"
+      alt="Gambar jika error"
+    />
+
+    <p>
+      Gambar di atas akan mencoba membuka 'gambar_tidak_ada.jpg'. Jika gagal, maka
+      akan menampilkan 'gambar_pengganti.png'.
+    </p>
+  </body>
+</html>
